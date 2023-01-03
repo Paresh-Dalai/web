@@ -1,5 +1,7 @@
 import React from "react";
 import './Content.css';
+import Topics from "./Topics/Topics";
+
 
 
 export default function Content(){
@@ -23,6 +25,9 @@ export default function Content(){
              </img>
             </div>
         </div>
+        <div className="home_topics">
+                <Topics />
+            </div>
         </div>
     )
 
